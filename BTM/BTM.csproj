@@ -246,6 +246,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BTMEntity\BTMEntity.csproj">
+      <Project>{ed2831fa-566e-4858-92a9-cbdd6c666132}</Project>
+      <Name>BTMEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BTMService\BTMService.csproj">
+      <Project>{8e3c95e9-9f0d-4074-bf2f-12ac6b0f762c}</Project>
+      <Name>BTMService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
