@@ -27,5 +27,10 @@ namespace BTM.App_Start
             //Container.Register<DepartmentController, DepartmentController>();
             //ControllerBuilder.Current.SetControllerFactory(new InjectionControllerFactory());
         }
+
+        internal static void configure()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

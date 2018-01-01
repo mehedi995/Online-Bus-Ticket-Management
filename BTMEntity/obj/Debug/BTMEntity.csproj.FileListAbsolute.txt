@@ -1,5 +1,4 @@
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMEntity\bin\Debug\BTMEntity.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMEntity\bin\Debug\BTMEntity.pdb
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMEntity\obj\Debug\BTMEntity.csprojResolveAssemblyReference.cache
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMEntity\obj\Debug\BTMEntity.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMEntity\obj\Debug\BTMEntity.pdb
