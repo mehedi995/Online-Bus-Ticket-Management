@@ -40,9 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusService.cs" />
+    <Compile Include="IBusService.cs" />
+    <Compile Include="ISeatService.cs" />
     <Compile Include="IService.cs" />
+    <Compile Include="ISpecialUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeatService.cs" />
     <Compile Include="Service.cs" />
+    <Compile Include="SpecialUserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BTMEntity\BTMEntity.csproj">

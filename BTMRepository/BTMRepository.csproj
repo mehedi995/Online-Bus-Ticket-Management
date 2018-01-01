@@ -49,10 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusRepository.cs" />
     <Compile Include="DataContext.cs" />
+    <Compile Include="IBusRepository.cs" />
     <Compile Include="IRepository.cs" />
+    <Compile Include="ISeatRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
+    <Compile Include="SeatRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BTMEntity\BTMEntity.csproj">
