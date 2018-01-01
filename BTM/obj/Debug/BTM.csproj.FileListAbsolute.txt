@@ -18,6 +18,7 @@ C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\BTMEntity.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\BTMService.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\EntityFramework.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\EntityFramework.SqlServer.dll
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\Injection.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\Microsoft.AspNet.Identity.Core.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\Microsoft.AspNet.Identity.Owin.dll
@@ -45,6 +46,7 @@ C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\WebGrease.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\BTMRepository.dll
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\BTMEntity.pdb
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\BTMService.pdb
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\Injection.pdb
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\System.Web.Helpers.xml
 C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTM\bin\System.Web.Mvc.xml

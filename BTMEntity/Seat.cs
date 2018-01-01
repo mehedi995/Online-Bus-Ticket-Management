@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BTMEntity
 {
-    public class Seat:Entity
+    public class Seat: Entity
     {
         [Required]
         [MaxLength(50)]
