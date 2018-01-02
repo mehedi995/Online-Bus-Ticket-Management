@@ -9,6 +9,6 @@ namespace BTMRepository
 {
     public interface ISpecialUserRepository:IRepository<SpecialUser>
     {
-
+        List<SpecialUser> Validate(string username, string password);
     }
 }

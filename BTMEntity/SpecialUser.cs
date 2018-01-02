@@ -9,11 +9,8 @@ namespace BTMEntity
 {
     public class SpecialUser:Entity
     {
-        [Required]
-        [MaxLength(50)]
+
         public String UserName { get; set; }
-        [Required]
-        [MaxLength(50)]
         public String Password { get; set; }
     }
 }

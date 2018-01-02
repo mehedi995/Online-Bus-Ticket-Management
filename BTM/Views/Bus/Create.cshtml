@@ -1,0 +1,331 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/Layouts/BusLayout.cshtml";
+}
+
+<form method="post" style="margin:auto;padding:auto;">
+    <table border="0" margin-left:"100px">
+        <tr>
+            <div class="form-group">
+                <td margin:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Bus Name</h6></label></td>
+                <td margin:"15px"><input class="form-control" name="bus_name" id="inputdefault" type="text"></td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form-group">
+                <td margin:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Route</h6></label></td>
+                <td margin:"15px">
+                    <input class="form-control" name="route" id="inputdefault" type="text" list="routeList">
+                    <datalist id="routeList">
+                        <option value="Dhaka-Chittagong">
+                        <option value="Dhaka-Syllet">
+                    </datalist>
+                </td>
+            </div>
+        </tr>
+        <!--Start Departure Date-->
+        <tr>
+            <div class="form-group">
+                <td padding:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Departure Date</h6></label></td>
+                <td padding:"15px">
+                    <table border="0">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Day</h6></label></div></div></td></tr>
+                                    <tr>
+                                        <td>
+                                            <input style="width: 80px" class="form-control" name="day" list="daylist" type="text">
+                                            <datalist id="daylist">
+                                                <option value="01">
+                                                <option value="02">
+                                                <option value="03">
+                                                <option value="04">
+                                                <option value="05">
+                                                <option value="06">
+                                                <option value="07">
+                                                <option value="08">
+                                                <option value="09">
+                                                <option value="10">
+                                                <option value="11">
+                                                <option value="12">
+                                                <option value="13">
+                                                <option value="14">
+                                                <option value="15">
+                                                <option value="16">
+                                                <option value="17">
+                                                <option value="18">
+                                                <option value="19">
+                                                <option value="20">
+                                                <option value="21">
+                                                <option value="22">
+                                                <option value="23">
+                                                <option value="24">
+                                                <option value="25">
+                                                <option value="26">
+                                                <option value="27">
+                                                <option value="28">
+                                                <option value="29">
+                                                <option value="30">
+                                                <option value="31">
+                                            </datalist>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Month</h6></label></div></div></td></tr>
+                                    <tr>
+                                        <td>
+                                            <input style="width: 80px" class="form-control" name="month" list="monthlist" type="text">
+                                            <datalist id="monthlist">
+                                                <option value="01">
+                                                <option value="02">
+                                                <option value="03">
+                                                <option value="04">
+                                                <option value="05">
+                                                <option value="06">
+                                                <option value="07">
+                                                <option value="08">
+                                                <option value="09">
+                                                <option value="10">
+                                                <option value="11">
+                                                <option value="12">
+                                            </datalist>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Year</h6></label></div></div></td></tr>
+                                    <tr>
+                                        <td>
+                                            <input style="width: 90px" class="form-control" name="year" list="yearlist" type="text">
+                                            <datalist id="yearlist">
+                                                <option value="2018">
+                                                <option value="2019">
+                                                <option value="2020">
+                                                <option value="2021">
+                                                <option value="2022">
+                                                <option value="2023">
+                                                <option value="2024">
+                                                <option value="2025">
+                                                <option value="2026">
+                                                <option value="2027">
+                                                <option value="2028">
+                                                <option value="2029">
+                                                <option value="2030">
+                                            </datalist>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </div>
+        </tr>
+        <!--End-->
+        <!--Start Departure Time-->
+        <tr>
+            <div class="form-group">
+                <td padding:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Departure Time</h6></label></td>
+                <td padding:"15px">
+                    <table border="0">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Hour</h6></label></div></div></td></tr>
+                                    <tr>
+                                        <td>
+                                            <input style="width: 80px" class="form-control" name="dphour" list="hourlist" type="text">
+                                            <datalist id="hourlist">
+                                                <option value="01">
+                                                <option value="02">
+                                                <option value="03">
+                                                <option value="04">
+                                                <option value="05">
+                                                <option value="06">
+                                                <option value="07">
+                                                <option value="08">
+                                                <option value="09">
+                                                <option value="10">
+                                                <option value="11">
+                                                <option value="12">
+                                            </datalist>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Minutes</h6></label></div></div></td></tr>
+                                    <tr>
+                                        <td>
+                                            <input style="width: 80px" class="form-control" name="dpminutes" list="minuteslist" type="text">
+                                            <datalist id="minuteslist">
+                                                <option value="01">
+                                                <option value="02">
+                                                <option value="03">
+                                                <option value="04">
+                                                <option value="05">
+                                                <option value="06">
+                                                <option value="07">
+                                                <option value="08">
+                                                <option value="09">
+                                                <option value="10">
+                                                <option value="11">
+                                                <option value="12">
+                                                <option value="13">
+                                                <option value="14">
+                                                <option value="15">
+                                                <option value="16">
+                                                <option value="17">
+                                                <option value="18">
+                                                <option value="19">
+                                                <option value="20">
+                                                <option value="21">
+                                                <option value="22">
+                                                <option value="23">
+                                                <option value="24">
+                                                <option value="25">
+                                                <option value="26">
+                                                <option value="27">
+                                                <option value="28">
+                                                <option value="29">
+                                                <option value="30">
+                                                <option value="41">
+                                                <option value="42">
+                                                <option value="43">
+                                                <option value="44">
+                                                <option value="45">
+                                                <option value="46">
+                                                <option value="47">
+                                                <option value="48">
+                                                <option value="49">
+                                                <option value="40">
+                                                <option value="51">
+                                                <option value="52">
+                                                <option value="53">
+                                                <option value="54">
+                                                <option value="55">
+                                                <option value="56">
+                                                <option value="57">
+                                                <option value="58">
+                                                <option value="59">
+                                                <option value="60">
+                                            </datalist>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">AM/PM</h6></label></div></div></td></tr>
+                                    <tr>
+                                        <td>
+                                            <input style="width: 90px" class="form-control" name="dpformat" list="formatlist" type="text">
+                                            <datalist id="formatlist">
+                                                <option value="AM">
+                                                <option value="PM">
+                                            </datalist>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </div>
+        </tr>
+        <!--End-->
+        <!--Start Departure Time-->
+        <tr>
+            <div class="form-group">
+                <td padding:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Arrival Time</h6></label></td>
+                <td padding:"15px">
+                    <table border="0">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Hour</h6></label></div></div></td></tr>
+                                    <tr><td><input style="width: 80px" class="form-control" name="arhour" list="hourlist" type="text"></td></tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Minutes</h6></label></div></div></td></tr>
+                                    <tr><td><input style="width: 80px" class="form-control" name="arminutes" list="minuteslist" type="text"></td></tr>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">AM/PM</h6></label></div></div></td></tr>
+                                    <tr><td><input style="width: 90px" class="form-control" name="arformat" list="formatlist" type="text"></td></tr>
+                                </table>
+                            </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </div>
+        </tr>
+        <!--End-->
+        <tr>
+            <div class="form-group">
+                <td margin:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Sratting Counter</h6></label></td>
+                <td margin:"15px">
+                    <input class="form-control" name="start" id="inputdefault" type="text" list="startList">
+                    <datalist id="startList">
+                        <option value="Dhaka">
+                        <option value="Syllet">
+                    </datalist>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form-group">
+                <td margin:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Ending Counter</h6></label></td>
+                <td margin:"15px">
+                    <input class="form-control" name="end" id="inputdefault" type="text" list="startList">
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form-group">
+                <td margin:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Coach Type</h6></label></td>
+                <td margin:"15px">
+                    <input class="form-control" name="type" id="inputdefault" type="text" list="typetList">
+                    <datalist id="typetList">
+                        <option value="AC">
+                        <option value="NON-AC">
+                    </datalist>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form-group">
+                <td margin:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Fare</h6></label></td>
+                <td margin:"15px"><input class="form-control" name="fare" id="inputdefault" type="text"></td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form-group">
+                <td margin:"15px"><label><h6 class="mb-2" style="text-align: left; color: black">Seat Available</h6></label></td>
+                <td margin:"15px"><input class="form-control" name="seat_available" id="inputdefault" type="text"></td>
+            </div>
+        </tr>
+
+    </table>
+    <div class="form-row">
+        <div class="col-12 col-md-6" style="margin-left: auto;margin-right: auto;">
+            <br><button type="submit" class="btn btn-block btn-lg btn-primary">Create</button>
+        </div>
+    </div>
+</form>
+

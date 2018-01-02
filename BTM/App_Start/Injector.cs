@@ -22,6 +22,7 @@ namespace BTM.App_Start
             Container.Register<IBusService, BusService>().Singleton();
             Container.Register<ISeatService, SeatService>().Singleton();
             Container.Register<ISpecialUserService, SpecialUserService>().Singleton();
+            Container.Register<IPassengerServise, PassengerServise>().Singleton();
 
             //Container.Register<IDepartmentService, DepartmentService>().Singleton();
             //Container.Register<DepartmentController, DepartmentController>();

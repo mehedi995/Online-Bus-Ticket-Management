@@ -15,5 +15,6 @@ namespace BTMRepository
         public DbSet<Bus> Buses { get; set; }
         public DbSet<Seat> Seats { get; set; }
         public DbSet<SpecialUser> SpecialUsers { get; set; }
+        public DbSet<Passenger> Passengers { get; set; }
     }
 }

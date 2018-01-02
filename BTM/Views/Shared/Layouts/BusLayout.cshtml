@@ -1,0 +1,125 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home Page</title>
+
+    <!--Script-->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link href="/static/icons/css/simple-line-icons.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/landing-page.min.css" rel="stylesheet">
+    <script type="text/javascript" src="/static/moment/moment.min.js"></script>
+    <script type="text/javascript" src="/static/moment/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <!-- Navigation -->
+                <nav class="navbar navbar-light bg-light static-top" style="margin-bottom: 0px">
+                    <div class="container">
+                        <table border="0" width="100%">
+                            <tr>
+                                <td width="50%">
+                                    <h2 class="navbar-brand brand-name">
+                                        <a href="#">
+                                            <img class="img-responsive2"
+                                                 src="/static/logo.png">
+                                        </a>
+                                    </h2>
+                                </td>
+                                <td align="right">
+                                    <a class="btn btn-primary" href="@Url.Action("Create", "Bus")" style="margin-right: 5px">Create New</a>
+                                    <a class="btn btn-primary" href="@Url.Action("Index", "Admin")" style="margin-right: 5px">Home</a>
+                                    <a class="btn btn-primary" href="@Url.Action("Index", "Logout")" style="margin-right: 5px">Logout</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </nav>
+
+                <div><br></div>
+                <div><br></div>
+                <div><br></div>
+                @RenderBody()
+                <div><br></div>
+                <div><br></div>
+                <div><br></div>
+
+                <!-- Footer -->
+                <footer class="footer bg-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                                <ul class="list-inline mb-2">
+                                    <li class="list-inline-item">
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li class="list-inline-item">&sdot;</li>
+                                    <li class="list-inline-item">
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li class="list-inline-item">&sdot;</li>
+                                    <li class="list-inline-item">
+                                        <a href="#">Terms of Use</a>
+                                    </li>
+                                    <li class="list-inline-item">&sdot;</li>
+                                    <li class="list-inline-item">
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                </ul>
+                                <p class="text-muted small mb-4 mb-lg-0">&copy; Start Bootstrap 2017. All Rights Reserved.</p>
+                            </div>
+                            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item mr-3">
+                                        <a href="#">
+                                            <i class="fa fa-facebook fa-2x fa-fw"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-3">
+                                        <a href="#">
+                                            <i class="fa fa-twitter fa-2x fa-fw"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="#">
+                                            <i class="fa fa-instagram fa-2x fa-fw"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <!-- Bootstrap core JavaScript -->
+
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</body>
+
+</html>

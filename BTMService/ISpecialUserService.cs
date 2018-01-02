@@ -9,6 +9,6 @@ namespace BTMService
 {
     public interface ISpecialUserService : IService<SpecialUser>
     {
-
+        List<SpecialUser> Validate(string username, string password);
     }
 }

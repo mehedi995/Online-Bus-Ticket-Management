@@ -1,31 +1,297 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="en">
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<head>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
-        <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home Page</title>
+
+    <!--Script-->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link href="/static/icons/css/simple-line-icons.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+
+    <link href="~/Views/Shared/landing-page.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="/static/moment/moment.min.js"></script>
+    <script type="text/javascript" src="/static/moment/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top" style="color: red">
+        <div class="container">
+            <table border="0" width="100%">
+                <tr>
+                    <td width="50%">
+                        <h2 class="navbar-brand brand-name">
+                            <a href="#">
+
+                                <img src="/Shared/logo.png" />
+                            </a>
+                        </h2>
+                    </td>
+                    <td width="50%" align="right">
+                        <a class="btn btn-primary" href="@Url.Action("Index", "Login")" style="margin-right: 5px">Sign In</a>
+                        <a class="btn btn-primary" href="#" style="margin-right: 5px">Create Account</a>
+                        <a class="btn btn-primary" href="#" style="margin-right: 5px">Cancel Tickets</a>
+                        <a class="btn btn-primary" href="#" style="margin-right: 5px">About Us</a>
+
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+    </nav>
+    <div class="row" style=" margin: 0px">
+        <div class="col-12 col-md-12 mb-auto mb-md-10">
+            <div class="msgbox mar10">
+                <!--<h1>Hello & Welcome to <span style="color: #B93117;">Sakura Paribahan</span></h1> -->
+                <!-- <h4>First Time Online Intercity Bus Ticketing Portal In Bangladesh</h4> -->
+
+                <div id="news-tricker" class="" style=" margin: 0px">
+                    <marquee behaviour="scroll" direction="left" scrollamount="4">
+                        <h4 style="color: #008000;">
+                            <span style="color: #000000;">Routes : </span>
+                            Dhaka-&gt;Khepupara<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Pirojpur<span style="color:black;margin-right:5px;">,</span>Khepupara-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Barisal<span style="color:black;margin-right:5px;">,</span>Barisal-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Kuakata<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Mathbaria<span style="color:black;margin-right:5px;">,</span>Mathbaria-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Kuakata-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Patuakhali<span style="color:black;margin-right:5px;">,</span>Patuakhali-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Pirojpur-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Swarupkathi<span style="color:black;margin-right:5px;">,</span>Swarupkathi-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Pirojpur( Bekutia )<span style="color:black;margin-right:5px;">,</span>Bekutia-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Jhalokathi<span style="color:black;margin-right:5px;">,</span>Jhalokathi-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Pathorghata<span style="color:black;margin-right:5px;">,</span>Pathorghata-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Barguna<span style="color:black;margin-right:5px;">,</span>Barguna-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Gazipur-&gt;Khepupara<span style="color:black;margin-right:5px;">,</span>Khepupara-&gt;Gazipur<span style="color:black;margin-right:5px;">,</span>Gazipur-&gt;Barisal<span style="color:black;margin-right:5px;">,</span>Barisal-&gt;Gazipur<span style="color:black;margin-right:5px;">,</span>Khepupara-&gt;Sayadabad<span style="color:black;margin-right:5px;">,</span>Sayadabad-&gt;Khepupara<span style="color:black;margin-right:5px;">,</span>Barguna-&gt;Sayadabad<span style="color:black;margin-right:5px;">,</span>Sayadabad-&gt;Barguna<span style="color:black;margin-right:5px;">,</span>Vandaria-&gt;malibag<span style="color:black;margin-right:5px;">,</span>malibag-&gt;Vandaria<span style="color:black;margin-right:5px;">,</span>malibag-&gt;Barisal<span style="color:black;margin-right:5px;">,</span>Barisal-&gt;malibag<span style="color:black;margin-right:5px;">,</span>Gazipur-&gt;Vandaria<span style="color:black;margin-right:5px;">,</span>Vandaria-&gt;Gazipur<span style="color:black;margin-right:5px;">,</span>Abdullahpur-&gt;Patuakhali<span style="color:black;margin-right:5px;">,</span>Abdullahpur-&gt;Barisal<span style="color:black;margin-right:5px;">,</span>Barisal-&gt;Abdullahpur<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Bekutia<span style="color:black;margin-right:5px;">,</span>Abdullahpur-&gt;Kuakata<span style="color:black;margin-right:5px;">,</span>Gazipur-&gt;Kuakata<span style="color:black;margin-right:5px;">,</span>Kuakata-&gt;Gazipur<span style="color:black;margin-right:5px;">,</span>Gazipur-&gt;Swarupkathi<span style="color:black;margin-right:5px;">,</span>Gazipur-&gt;Barguna<span style="color:black;margin-right:5px;">,</span>Chandipur-&gt;Dhaka<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Chandipur<span style="color:black;margin-right:5px;">,</span>Gazipur-&gt;Rayenda<span style="color:black;margin-right:5px;">,</span>Rayenda-&gt;Gazipur<span style="color:black;margin-right:5px;">,</span>Dhaka-&gt;Taltoli<span style="color:black;margin-right:5px;">,</span>Taltoli-&gt;Dhaka
+                        </h4>
+                    </marquee>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div><br>
+    <!-- Masthead -->
+    <header class="masthead text-white text-center" style="padding-top: 80px;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-8 col-xl-7 mx-5">
+                    <form method="post">
+                        <table border="0" width="100%">
+                            <tr>
+                                <td>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-10 mb-2 mb-md-10" style="margin-left: auto;margin-right: auto;">
+                                            <h6 class="mb-2" style="text-align: left; color: black">Leaving From</h6>
+                                            <input type="text" class="form-control form-control-lg" name="start" list="sourcelist">
+                                            <datalist id="sourcelist">
+                                                <option value="Dhaka">
+                                                <option value="Syllet">
+                                            </datalist>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-8 mb-2 mb-md-10" style="margin-left: auto;margin-right: auto;">
+                                            <h6 class="mb-2" style="text-align: left; color: black">Going To</h6>
+                                            <input style="width: 140%" type="text" class="form-control form-control-lg" name="end" list="sourcelist">
+                                            <datalist id="sourcelist">
+                                                <option value="Dhaka">
+                                                <option value="Syllet">
+                                            </datalist>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table border="0">
+                                        <tr>
+                                            <td>
+                                                <table style="margin-left:30px">
+                                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Day</h6></label></div></div></td></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <input style="width: 80px" class="form-control" name="day" list="daylist" type="text">
+                                                            <datalist id="daylist">
+                                                                <option value="01">
+                                                                <option value="02">
+                                                                <option value="03">
+                                                                <option value="04">
+                                                                <option value="05">
+                                                                <option value="06">
+                                                                <option value="07">
+                                                                <option value="08">
+                                                                <option value="09">
+                                                                <option value="10">
+                                                                <option value="11">
+                                                                <option value="12">
+                                                                <option value="13">
+                                                                <option value="14">
+                                                                <option value="15">
+                                                                <option value="16">
+                                                                <option value="17">
+                                                                <option value="18">
+                                                                <option value="19">
+                                                                <option value="20">
+                                                                <option value="21">
+                                                                <option value="22">
+                                                                <option value="23">
+                                                                <option value="24">
+                                                                <option value="25">
+                                                                <option value="26">
+                                                                <option value="27">
+                                                                <option value="28">
+                                                                <option value="29">
+                                                                <option value="30">
+                                                                <option value="31">
+                                                            </datalist>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td>
+                                                <table>
+                                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Month</h6></label></div></div></td></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <input style="width: 80px" class="form-control" name="month" list="monthlist" type="text">
+                                                            <datalist id="monthlist">
+                                                                <option value="01">
+                                                                <option value="02">
+                                                                <option value="03">
+                                                                <option value="04">
+                                                                <option value="05">
+                                                                <option value="06">
+                                                                <option value="07">
+                                                                <option value="08">
+                                                                <option value="09">
+                                                                <option value="10">
+                                                                <option value="11">
+                                                                <option value="12">
+                                                            </datalist>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <td>
+                                                <table>
+                                                    <tr><td><div class="form-row"><div class="form-group row" style="margin: auto;padding:auto;"><label><h6 class="mb-2" style="text-align: left; color: black">Year</h6></label></div></div></td></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <input style="width: 90px" class="form-control" name="year" list="yearlist" type="text">
+                                                            <datalist id="yearlist">
+                                                                <option value="2018">
+                                                                <option value="2019">
+                                                                <option value="2020">
+                                                                <option value="2021">
+                                                                <option value="2022">
+                                                                <option value="2023">
+                                                                <option value="2024">
+                                                                <option value="2025">
+                                                                <option value="2026">
+                                                                <option value="2027">
+                                                                <option value="2028">
+                                                                <option value="2029">
+                                                                <option value="2030">
+                                                            </datalist>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td>
+                                    <div class="form-row">
+                                        <div class="col-12 col-md-8 mb-2 mb-md-10" style="margin-left: auto;margin-right: auto;">
+                                            <h6 class="mb-2" style="text-align: left; color: black">Coach Type</h6>
+                                            <input style="width: 140%" type="text" class="form-control form-control-lg" name="type" list="typelist">
+                                            <datalist id="typelist">
+                                                <option value="AC">
+                                                <option value="NON-AC">
+                                            </datalist>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </table>
+
+
+
+                        <div class="form-row">
+                            <div class="col-12 col-md-6" style="margin-left: auto;margin-right: auto;">
+                                <br><button type="submit" class="btn btn-block btn-lg btn-primary">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div><br /></div>
+    <div><br /></div>
+    <div><br /></div>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Terms of Use</a>
+                        </li>
+                        <li class="list-inline-item">&sdot;</li>
+                        <li class="list-inline-item">
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; Start Bootstrap 2017. All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-facebook fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item mr-3">
+                            <a href="#">
+                                <i class="fa fa-twitter fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">
+                                <i class="fa fa-instagram fa-2x fa-fw"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
