@@ -1,14 +1,3 @@
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMService.dll
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMService.pdb
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMEntity.dll
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMRepository.dll
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\EntityFramework.dll
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMEntity.pdb
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMRepository.pdb
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\EntityFramework.xml
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\obj\Debug\BTMService.csprojResolveAssemblyReference.cache
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\obj\Debug\BTMService.dll
-C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\obj\Debug\BTMService.pdb
 C:\Users\pial0\Documents\Online-Bus-Ticket-Management\BTMService\bin\Debug\BTMService.dll
 C:\Users\pial0\Documents\Online-Bus-Ticket-Management\BTMService\bin\Debug\BTMService.pdb
 C:\Users\pial0\Documents\Online-Bus-Ticket-Management\BTMService\bin\Debug\BTMEntity.dll
@@ -22,3 +11,14 @@ C:\Users\pial0\Documents\Online-Bus-Ticket-Management\BTMService\obj\Debug\BTMSe
 C:\Users\pial0\Documents\Online-Bus-Ticket-Management\BTMService\obj\Debug\BTMService.csproj.CoreCompileInputs.cache
 C:\Users\pial0\Documents\Online-Bus-Ticket-Management\BTMService\obj\Debug\BTMService.dll
 C:\Users\pial0\Documents\Online-Bus-Ticket-Management\BTMService\obj\Debug\BTMService.pdb
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMService.dll
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMService.pdb
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMEntity.dll
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMRepository.dll
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\EntityFramework.dll
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMEntity.pdb
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\BTMRepository.pdb
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\bin\Debug\EntityFramework.xml
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\obj\Debug\BTMService.csprojResolveAssemblyReference.cache
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\obj\Debug\BTMService.dll
+C:\Users\SUJON\Desktop\Online Bus Ticket Management\BTMService\obj\Debug\BTMService.pdb
